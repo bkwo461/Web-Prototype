@@ -1,0 +1,267 @@
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #070707;
+}
+.custom-colour{
+    color: #fcd600;
+}
+.custom-background-colour{
+    color: #fff;
+}
+h1{
+    font-size: 48px;
+    font-weight: 120;
+}
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.result{
+    font-size: 24px;
+}
+.intro_bg{
+    background-image:url("image1.png");
+    width:100%;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    width:90%;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+.header h1 a{
+    position: relative;
+    right: 15%;
+    font-weight: 500;
+    
+}
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background: #00000080;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+.searchArea > form > input{
+    border: none;
+    width: 230px;
+    height: 40px;
+    background: #00000100;
+}
+.searchArea > form > span{
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 65px;
+    width: calc(1280px - 350px);
+    
+    
+}
+.navigation > li{
+    margin-left: 60px;
+    
+}
+.navigation > li > a{
+    font-weight: 200;
+    color: #ffffff;
+
+}
+.navigation > li > a:hover{
+    color: #fcd600;
+}
+.navigation button{
+    padding: 10px 15px;
+    font-weight: 200;
+    font-size:large;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #f0db63;
+}
+.navigation  button:hover{
+    background-color: #f0db63;
+    color: #000;
+}
+.intro_text{
+    width: 100%;
+    
+    margin:231px auto 231px auto; 
+    
+    text-align: center;
+    
+}
+.intro_text > h1,
+.intro_text > h4{ 
+    margin-bottom: 20px;
+}
+
+.intro_text > button{
+    background: none;
+    border: 2px solid #fcd600;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+
+}
+.intro_text > button:hover{
+    
+    background-color: #fcd600;
+    color: #000;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: #fcd600;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+footer div{
+    text-align: center;
+    width: 90%;
+}
+.col-2{
+    flex-grow: 2;
+}
+.col-2 h3{
+    padding: 5px;
+}
+.col-2 button{
+    border-radius: 20px;
+    
+    padding: 10px 30px;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 15px;    
+}
+.col-2 button:hover{
+    background-color: #e8db91;
+}
+    
+footer div h3{
+    font-weight: 600;
+    margin-top: 0%;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+
+}
+.social_icons{
+    margin-top: auto;
+    text-align: center;
+}
+.social_icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #000000; /* Fallback color */
+    background-color: #00000066; /* Black w/ opacity */
+
+
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    position: relative;
+    text-align: center;
+    background-color: #c7c3dc;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 60px;
+    border-radius: 10px;
+    border: 10px solid #fcd600;
+    
+    width: 38%; /* Could be more or less, depending on screen size */
+  }
+  /* Design of Register Form */
+#form-ct{
+    position: relative;
+    top: 50%;
+    left: 5%;
+    align-items: center;
+    background-color: #e7da91;
+    font-size: x-large;
+    border-radius: 10px;
+  }
+  
+#form-ct p{
+    font-weight: 600;
+    text-align: auto;
+  }
+#form-ct label{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    font-size: large;
+    
+  }
+#form-ct input{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 100px;
+  }
+  .modal-content h2{
+    
+    font-size: xx-large;
+    
+  }
+  /* The Close Button */
+  .containerframe button{
+    position: relative;
+    top: 5%;
+    left: 50%;
+    
+  }
+  .button-display-topright{
+    color: #030303;
+    float: right;
+    font-size:x-large;
+    font-weight: bold;
+  }
+  .button-display-topright:hover, .button-display-topright:focus{
+    color: #f70d0d;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* Register Confirm Button */
+  .confirm{
+    position: relative;
+    font-weight: 600;
+    left: 5.5%;
+  }
